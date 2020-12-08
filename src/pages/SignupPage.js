@@ -1,8 +1,8 @@
 
 function SignupPage(props) {
     return (
-        <main className="page">
-            <h1>SignupPage</h1>
+        <main className="Page">
+            <h1>Signup</h1>
         </main>
         
     )

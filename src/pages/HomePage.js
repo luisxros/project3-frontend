@@ -1,8 +1,8 @@
 
 function HomePage(props) {
     return (
-        <main className="page">
-            <h1>HomePage</h1>
+        <main className="Page">
+            <h1>Home</h1>
         </main>
         
     )

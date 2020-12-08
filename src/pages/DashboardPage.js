@@ -1,7 +1,7 @@
 
 function DashboardPage(props) {
     return (
-        <main className="page">
+        <main className="Page">
             <h1>Dashboard</h1>
         </main>
         
