@@ -7,12 +7,14 @@ function SignupPage(props) {
 
     const [formState, setFormState] = useState({
         name: '',
+        username: '',
         email: '',
-        password:''
+        password:'',
+        passwordConf: ''
     });
 
     function formValid() {
-        return !!(formState.name && formState.email && formState.password)
+        return !!(formState.name && formState.username && formState.email && formState.password === formState.passwordConf);
     }
 
     function handleChange(event) {
@@ -47,12 +49,22 @@ function SignupPage(props) {
           </div>
           <div className="form-group">
             <div className="col-sm-12">
+              <input name="username" type="text" className="form-control" placeholder="Username" value={formState.username} onChange={handleChange} />
+            </div>
+          </div>
+          <div className="form-group">
+            <div className="col-sm-12">
               <input name="email" type="email" className="form-control" placeholder="Email" value={formState.email} onChange={handleChange} />
             </div>
           </div>
           <div className="form-group">
             <div className="col-sm-12">
               <input name="password" type="password" className="form-control" placeholder="Password" value={formState.password} onChange={handleChange} />
+            </div>
+          </div>
+          <div className="form-group">
+            <div className="col-sm-12">
+              <input type="password" className="form-control" placeholder="Confirm Password" value={formState.passwordConf} name="passwordConf" onChange={handleChange} />
             </div>
           </div>
           <div className="form-group">
