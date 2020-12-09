@@ -28,7 +28,7 @@ function SignupPage(props) {
         if(!formValid()) return;
         try {
             await signup(formState);
-            // calling
+            props.handleSignupOrLogin();
         } catch (error) {
             alert(error.message);
         }
