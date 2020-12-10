@@ -5,7 +5,7 @@ function Footer(props) {
     return(
        
         <footer className="Footer">
-            <p>Copyright&copy; project3 {new Date().getFullYear()} All Rights Reserved</p>
+            <p>Copyright&copy; SocialNote {new Date().getFullYear()} All Rights Reserved</p>
         </footer>
         
     );

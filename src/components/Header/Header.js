@@ -6,7 +6,7 @@ function Header(props) {
     return(
         
         <header className="Header">
-            <Link to="/"><h1> Logo</h1></Link>
+            <Link to="/"><h1>SocialNote</h1></Link>
             <nav>
                 <ul className="NavLinks">
                     {
