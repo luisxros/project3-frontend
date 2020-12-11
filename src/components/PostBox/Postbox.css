@@ -1,0 +1,42 @@
+.Postbox{
+    padding-bottom: 10px;
+    border-bottom: 8px solid grey;
+    padding-right: 10px;
+}
+
+.Postbox > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Postbox-input {
+    padding:20px;
+    display: flex;
+}
+
+.Postbox-input > input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.Post-button {
+    border: none;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: 800;
+    text-transform: inherit;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.Postbox-img {
+    border: none;
+    padding: 10px;
+    
+
+}
