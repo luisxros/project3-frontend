@@ -20,6 +20,7 @@ function App(props) {
   /* Component state*/
 
   const [ userState, setUserState ] = useState({ user: getUser() });
+  
 
   /* Helper function */
 
