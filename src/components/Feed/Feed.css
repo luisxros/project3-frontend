@@ -1,0 +1,20 @@
+.Feed {
+    flex: 0.4;
+    border-right: 1px solid grey;
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.Feed::-webkit-scrollbar {
+    display: none;
+}
+
+.Feed-header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
